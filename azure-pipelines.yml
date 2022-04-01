@@ -17,7 +17,7 @@ steps:
   name: caCertificate
   displayName: 'Download CA certificate'
   inputs:
-    secureFile: 'myCACertificate.pem'
+    secureFile: 'clacd.p12'
 
 - script: |
     echo Installing $(caCertificate.secureFilePath) to the trusted CA directory...
